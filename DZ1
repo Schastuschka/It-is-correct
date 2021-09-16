@@ -1,0 +1,33 @@
+a = str('Hello')
+b = int(7)
+c = 1.18
+d = bytes(18)
+e = ['malina13', 'jagoda15', "orrr"]
+f = tuple('hello, world!')
+g = {1, 5, 6, 7, 3}
+h = frozenset({'baby', 'mom', 'baby', 'dad'})
+j = {'You': 'Dad', 'I': 'Mom'}
+print("Тип 'а' = ", a, " это", type(a))
+print("Тип 'b' = ", b, " это", type(b))
+print("Тип 'c' = ", c, "это", type(c))
+print("Тип 'd' = ", d, "это", type(d))
+print("Тип 'e' = ", e, "это", type(e))
+print("Тип 'f' = ", f, "это", type(f))
+print("Тип 'g' = ", g, "это", type(g))
+print("Тип 'h' = ", h, "это", type(h))
+print("Тип 'j' = ", j, "это", type(j))
+# шлепаем дальше
+A, B = 'one', 'dollar'
+C = A + B
+print(C)
+D, F = 23, 4
+G = D + F
+print(G)
+E = D/F
+print(E)
+H = D*F
+print(H)
+J = D // F
+print(J)
+K = D % F
+print(K)
